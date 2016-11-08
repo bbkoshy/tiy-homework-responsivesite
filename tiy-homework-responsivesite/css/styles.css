@@ -48,7 +48,18 @@ height: 195px
   margin: 30px 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   text-align: center;
+  background-color: #F7F7F7;
 
+
+}
+.plans ul{
+margin: 0;
+padding: 0;
+
+}
+
+.price{
+padding: 25px;
 
 }
 
@@ -87,15 +98,14 @@ color: rgba(163, 193, 173, 0.8);
   list-style: none;
   text-align: center;
   padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  margin: auto;0;
-  margin-left: -40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
 
 
 }
 
 .cta{
-padding: 13px;
+padding: 20px;
 
 
 }
@@ -116,7 +126,7 @@ padding: 13px;
   margin: 30px 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   text-align: center;
-
+  background-color: #F7F7F7;
 }
 
 .smallbusiness .price{
@@ -135,6 +145,7 @@ padding: 13px;
   margin: 30px 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   text-align: center;
+  background-color: #F7F7F7;
 
 }
 
@@ -199,6 +210,126 @@ margin-left: 160px;
 
 
 
+  }
+
+  @media  (min-width:768px)and (max-width:978px){
+    .backsplash{
+    background: url(../images/backsplash.jpeg) blue;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    overflow:hidden;
+    height: 255px;
+    padding: 70px 0px;
+
+  }
+  .logo h5{
+    font-weight: lighter;
+    font-size: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+
+}
+
+.navigation li{
+  font: 15px;
+  padding: 5px 15px;
+  float:left
+
+}
+
+.personal{
+  float: left;
+  width: 30%;
+}
+
+.smallbusiness{
+  float: left;
+  width: 30%;
+}
+
+.enterprise {
+  float: left;
+  width: 30%;
+}
+
+.features{
+  overflow: inherit;
+  text-align: center;
+}
+.feature {
+  float: left;
+  width: 45%;
+}
+
+footer{
+  clear: both;
+}
+
+}
+
+@media  (min-width:979px){
+  .backsplash{
+  background: url(../images/backsplash.jpeg) blue;
+  background-position: center;
+  display: inline-block;
+  width: 100%;
+  overflow:hidden;
+
+  padding: 150px 0px;
 
 
   }
+  .logo h5{
+  font-weight: lighter;
+  font-size: 15px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 7px;
+
+  }
+
+  .navigation li{
+  font: 15px;
+  padding: 5px 15px;
+  float:left
+
+  }
+
+  .personal{
+  float: left;
+  width: 30%;
+  }
+
+  .smallbusiness{
+  float: left;
+  width: 30%;
+  }
+
+  .enterprise {
+  float: left;
+  width: 30%;
+  }
+
+  .features{
+  overflow: inherit;
+  text-align: center;
+  }
+  .feature {
+  float: left;
+  width: 45%;
+  }
+
+  footer{
+  clear: both;
+  }
+
+.plans, .features{
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+
+}
